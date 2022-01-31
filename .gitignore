@@ -2,6 +2,8 @@
 
 # dependencies
 /node_modules
+/src/videos/Roomtour110m.mp4
+/dist/videos/Roomtour110m.mp4
 
 # testing
 /coverage

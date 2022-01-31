@@ -4,25 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Art Buro</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
     <link rel="stylesheet" href="fonts/AvenirNextCyr/stylesheet.css">
     <link rel="stylesheet" href="fonts/CodecPro/stylesheet.css">
     <link rel="stylesheet" href="css/style.min.css">
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
 </head>
 <body>
     <header class="header">
         <div class="container">
             <div class="header__wrapper">
-                <a><img src="icons/logo.png" alt="logo"></a> 
+                <a><img src="img/logo.png" alt="logo"></a> 
                 <a class="dot" href="tel:+77770391026">+7 (777) 039-10-26</a>
             </div>
         </div>
     </header>
     <main>
         <a class="back_to_top" title="Наверх">
-            <img src="icons/arr.svg" alt="up">
+            <svg width="14" height="35" viewBox="0 0 14 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M14 17.5L0 0V35L14 17.5Z" fill="#E5E5E5"/>
+            </svg>
         </a>
         <section class="first-screen">
             <div class="first-screen__wrapper">
@@ -30,13 +33,13 @@
                     <img src="img/house.png" alt="house">
                 </div>
                 <form id="form" action="#">
-                    <input required data-mask="000 000 000" type="text" class="first-screen__input" placeholder="Введите номер телефона и мы Вам перезвоним">
+                    <input onfocus="javascript:isFocused = true" required data-mask="000 000 000" type="text" class="first-screen__input" placeholder="Введите номер телефона и мы Вам перезвоним">
                     <button id="submit-phone" type="submit"></button>
                 </form>
             </div>
         </section>
         <section class="videoplayer">
-            <video poster="videos/preview.png" controls="controls">
+            <video autoplay muted poster="videos/preview.png" controls="controls">
                 <source src="videos/Roomtour110m.mp4" type="video/mp4"/>
             </video>
         </section>
@@ -146,7 +149,9 @@
                             </div>
                         </div>
                         <div class="swiper-button-next">
-                            <img src="icons/arr.svg" alt="">
+                            <svg width="14" height="35" viewBox="0 0 14 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M14 17.5L0 0V35L14 17.5Z" fill="#E5E5E5"/>
+                            </svg>
                         </div>
                     </div>
                 </div>
