@@ -1,0 +1,34 @@
+.videoplayer {
+    margin-top: 0px;
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    video {
+        width: 1440px;
+    }
+}
+@media (max-width: 1440px) {
+    .videoplayer {
+        margin-top: 0px;
+        video {
+            width: 992px;
+        }
+    }
+}
+
+@media (max-width: 1000px) {
+    .videoplayer {
+        margin-top: 0px;
+        video {
+            width: 768px;
+        }
+    }
+}
+@media (max-width: 812px) {
+    .videoplayer {
+        video {
+            width: 100%;
+        }
+    }
+}

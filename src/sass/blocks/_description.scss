@@ -1,0 +1,49 @@
+.description {
+    margin-top: 47px;
+
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        font-family: Avenir Next Cyr;
+        h1 {
+            font-weight: 500;
+            font-size: 16.8px;
+            line-height: 21px;
+            margin-bottom: 8px;
+        }
+        p {
+            letter-spacing: -0.07px;
+            margin: 22px 0;
+            font-weight: light;
+            font-size: 16px;
+            line-height: 19.6px;
+        }
+        span {
+            margin-top: 5px;
+            line-height: 20px;
+            text-align: right;
+        }
+    }
+}
+
+@media (max-width: 1440px) {
+    .description {
+        margin-top: 38px;
+        &__wrapper {
+            h1 {
+                font-size: 14.4px;
+                line-height: 18px;
+                margin-bottom: 0px;
+            }
+            p {
+                margin: 18px 0;
+                font-size: 14px;
+                line-height: 17px;
+            }
+            span {
+                font-size: 14px;
+                line-height: 17px;
+            }
+        }
+    }
+}

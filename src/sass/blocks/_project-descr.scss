@@ -1,0 +1,123 @@
+.project-img{ 
+    margin-top: 42px;
+    margin-bottom: 42px;
+    width: 100%;
+    overflow: hidden;
+    display: block;
+    img {
+        max-width: 100%;
+        max-height: auto;
+        object-fit: contain;
+    }
+}
+
+.project-descr {
+    font-family: Avenir Next Cyr;
+    display: flex;
+    justify-content: space-between;
+    &__properties {
+        padding-right: 30px;
+        margin-top: 38px;
+        width: 442px;
+        min-height: 246px;
+        ul {
+            margin-top: 20px;
+            li {
+                text-align: justify;
+                line-height: 20px;
+                font-size: 16px;
+                font-weight: 300;
+                list-style: none;
+                span {
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+    &__article {
+        font-weight: 300;
+        width: 654px;
+        min-height: 246px;
+        h1 {
+            font-family: Codec Pro;
+            font-size: 22px;
+            font-weight: 500;
+            margin-bottom: 18px;
+        }
+        p {
+            text-align: justify;
+            font-weight: 300;
+            letter-spacing: 0.1px;
+            line-height: 20px;
+            font-size: 16px;
+            margin: 19px 0;
+        }
+    }
+}
+
+.project-gray {
+    margin-top: 31px;
+    min-width: 100%;
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr 1fr;
+    flex-wrap: wrap;
+    grid-column-gap: 13px;
+}
+
+@media (max-width: 1440px) {
+    .project-gray {
+        overflow-x: scroll;
+    }
+}
+@media (max-width: 1000px) {
+    .project-descr {
+        &__properties {
+            ul {
+                li {
+                    text-align: unset;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 576px) {
+    .project-descr {
+        flex-direction: column;
+        &__properties {
+            ul {
+                li {
+                    font-size: 14px;
+                    line-height: 16px;
+                }
+            }
+            margin-top: -30px;
+            width: 100%;
+        }
+        &__article {
+            margin-top: -60px;
+            width: 100%;
+            h1 {
+                font-size: 18px;
+                line-height: 20px;
+            }
+            p {
+                font-size: 14px;
+                line-height: 16px;
+            }
+        }
+    }
+}
+@media (max-width: 480px) {
+    .project-descr {
+        &__article {
+            margin-top: -40px;
+        }
+    }
+}
+@media (max-width: 400px) {
+    .project-descr {
+        &__article {
+            margin-top: -20px;
+        }
+    }
+}
