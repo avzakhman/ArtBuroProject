@@ -1,10 +1,10 @@
 <?php
  
 // Токен
-  const TOKEN = '5246165388:AAGvNgKx2_HvHXEEwgXvxqfhKYtQunCuN7E';
+  const TOKEN = 'вставить токен сюда';
  
   // ID чата
-  const CHATID = '-771301311';
+  const CHATID = 'вставить id чата сюда';
 
  
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
