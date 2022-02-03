@@ -8,6 +8,7 @@
         max-width: 1231px;
         margin: 0 auto;
         form {
+            position: relative;
             margin-top: 28px;
             width: 100%;
             display: flex;
@@ -64,6 +65,12 @@
             object-fit: cover;
         }
     }
+}
+.contact-form__message {
+    position: absolute;
+    top: -30px;
+    font-family: Avenir Next Cyr;
+
 }
 
 @media (max-width: 1440px) {

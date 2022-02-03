@@ -32,8 +32,16 @@
                 <div class="first-screen__illustration">
                     <img src="img/house.png" alt="house">
                 </div>
-                <form id="form" action="#">
-                    <input onfocus="javascript:isFocused = true" required data-mask="000 000 000" type="text" class="first-screen__input" placeholder="Введите номер телефона и мы Вам перезвоним">
+                <form class="contact-form" method="POST" enctype="multipart/form-data" id="form" autocomplete="off">
+
+                    <div class="preloader"></div>
+                    <p class="contact-form__message"></p>
+
+                    <input name="phone" onfocus="javascript:isFocused = true" required data-mask="000 000 000" type="text" class="first-screen__input" placeholder="Введите номер телефона и мы Вам перезвоним">
+                    
+                    <input name="theme" type="hidden"
+                    value="пользователь оставил заявку на звонок (art-buro.kz)">
+
                     <button id="submit-phone" type="submit"></button>
                 </form>
             </div>
@@ -60,7 +68,7 @@
             <div class="container">
                 <ul class="projects__wrapper">
                     <li class="project-block">
-                        <a href="project.html">
+                        <a href="project.php">
                             <img src="img/interiors/01.png" alt="01">
                         </a>
                     </li>
@@ -174,7 +182,7 @@
                     <a href="https://www.instagram.com/artburo.design/">@artburo.design</a>
                 </div>
                 <div class="contacts-block">
-                    <a class="contacts-block__question">задать вопрос</a>
+                    <a href="https://wa.me/77770391026" class="contacts-block__question">задать вопрос</a>
                     <p>Александр Еникеев<br>Дарья Еникеева </p>
                 </div>
                 <h2 class="footer__credits">© 2022 ART BURO. All rights reserved.</h2>
@@ -187,5 +195,6 @@
     <script src="js/jquery.maskedinput.js"></script>
     <script src="js/script.js"></script>
     <script src="js/scroll.js"></script>
+    <script src="js/telegramform.js"></script>
 </body>
 </html>

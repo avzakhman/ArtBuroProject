@@ -33,7 +33,7 @@
         font-family: Codec Pro;
         position: absolute;
         bottom: -88px;
-        left: 44px;
+        left: 41px;
     }
 }
 
@@ -62,7 +62,7 @@
                 width: 13px;
                 position: absolute;
                 border-radius: 100%;
-                top: 5px;
+                top: 2px;
                 left: -26px;
             }
         }
@@ -95,7 +95,7 @@
         &__credits {
             font-size: 16px;
             bottom: -70px;
-            left: 30px;
+            left: 26px;
         }
     }
     
@@ -110,7 +110,7 @@
                 &::before {
                     height: 10px;
                     width: 10px;
-                    top: 4px;
+                    top: 2px;
                     left: -20px;
                 }
             }
@@ -140,6 +140,7 @@
         }
         &__credits {
             font-size: 15px;
+            left: 7px;
             bottom: -35px;
         }
     }
@@ -178,6 +179,13 @@
         a, p{
             font-size: 15px;
         }
+        &:nth-child(4) {
+            a {
+                &::before {
+                    top: 1px;
+                }
+            }
+        }
     }
     .footer {
         min-height: 249px;
@@ -186,7 +194,7 @@
         }
         &__credits {
             bottom: -50px;
-            left: 0px;
+            left: 7px;
             width: 100%;
             text-align: left;
         }

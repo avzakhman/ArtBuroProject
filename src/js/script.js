@@ -17,18 +17,18 @@ const swiper = new Swiper('.swiper', {
 
 //анимация кнопки отправки номера телефона при его вводе
 const fsinput = document.querySelector('.first-screen__input'),
-      Submit = document.querySelector('#submit-phone');
+Submit = document.querySelector('#submit-phone');
 
-function AnimateCircle(input, circle) {
-    fsinput.addEventListener('focus', () => {
-        circle.style.animation = "pulse 1s infinite";
-    });
-    fsinput.addEventListener('focusout', () => {
-        circle.style.animation = "pulse 1s";
-    });
-}
+// function AnimateCircle(input, circle) {
+//     fsinput.addEventListener('focus', () => {
+//         circle.style.animation = "pulse 1s infinite";
+//     });
+//     fsinput.addEventListener('focusout', () => {
+//         circle.style.animation = "pulse 1s";
+//     });
+// }
 
-AnimateCircle(fsinput, Submit);
+// AnimateCircle(fsinput, Submit);
 ////////////////////////////////////////////////////////
 
 
@@ -44,9 +44,9 @@ jQuery(function($){
 
 
 //предотвращение обновления и скролла страницы вверх при отправке формы
-Submit.addEventListener('click', (e) => {
-    e.preventDefault();
-})
+// Submit.addEventListener('click', (e) => {
+//     e.preventDefault();
+// })
 ///////////////////////////////////////////////////////////////////////
 
 var isFocused = false;

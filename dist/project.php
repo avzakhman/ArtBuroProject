@@ -116,7 +116,7 @@
                     <a href="https://t.me/@artburo.design">@artburo.design</a>
                 </div>
                 <div class="contacts-block">
-                    <a class="contacts-block__question">задать вопрос</a>
+                    <a href="https://wa.me/77770391026" class="contacts-block__question">задать вопрос</a>
                     <p>Александр Еникеев<br>Дарья Еникеева </p>
                 </div>
                 <h2 class="footer__credits">© 2022 ART BURO. All rights reserved.</h2>
