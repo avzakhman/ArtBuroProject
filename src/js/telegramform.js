@@ -30,17 +30,17 @@ console.log('script initialized');
           let respond = $.parseJSON(res);
    
           if (respond === "SUCCESS") {
-            message.text(successSendText).css("color", "#21d4bb");
+            message.text(successSendText).css("color", "#AEAEAE");
             setTimeout(() => {
               message.text("");
             }, 4000);
           } else if (respond === "NOTVALID") {
-            message.text(requiredFieldsText).css("color", "#d42121");
+            message.text(requiredFieldsText).css("color", "#AEAEAE");
             setTimeout(() => {
               message.text("");
             }, 3000);
           } else if (respond === "ERROR") {
-            message.text(errorSendText).css("color", "#d42121");
+            message.text(errorSendText).css("color", "#AEAEAE");
             setTimeout(() => {
               message.text("");
             }, 4000);

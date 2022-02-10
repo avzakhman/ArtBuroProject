@@ -17,7 +17,7 @@
     justify-content: space-between;
     &__properties {
         padding-right: 30px;
-        margin-top: 38px;
+        margin-top: 18px;
         width: 442px;
         min-height: 246px;
         ul {
@@ -67,6 +67,11 @@
 @media (max-width: 1440px) {
     .project-gray {
         overflow-x: scroll;
+    }
+    .project-descr {
+        &__properties {
+            margin-top: 38px;
+        }
     }
 }
 @media (max-width: 1000px) {

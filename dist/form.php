@@ -1,10 +1,10 @@
 <?php
  
 // Токен
-  const TOKEN = 'вставить токен сюда';
+  const TOKEN = '';
  
   // ID чата
-  const CHATID = 'вставить id чата сюда';
+  const CHATID = '';
 
  
 if ($_SERVER["REQUEST_METHOD"] == "POST") {

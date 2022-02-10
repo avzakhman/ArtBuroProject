@@ -15,7 +15,7 @@
     <header class="header">
         <div class="container">
             <div class="header__wrapper">
-                <a href="index.html"><img src="img/logo.png" alt="logo"></a>
+                <a href="/"><img src="img/logo.png" alt="logo"></a>
                     
                 <a class="dot" href="tel:+77770391026">+7 (777) 039-10-26</a>
             </div>
